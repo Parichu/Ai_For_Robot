@@ -8,7 +8,7 @@ import time
 
 print("กำลังโหลดโมเดล AI...")
 # --- 1. โหลดโมเดล ---
-model_path = "/home/parichu/Ai/all_workspace/service_robot_ws2/fire_smoke_model_yolo11n.pt" 
+model_path = "/home/parichu/AiForRobot/Ai_For_Robot/AI_Model/best.pt" 
 model = YOLO(model_path)
 print(f"โหลดโมเดล {model_path} สำเร็จ")
 

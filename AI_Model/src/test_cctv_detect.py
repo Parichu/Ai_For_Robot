@@ -5,7 +5,7 @@ import time
 from ultralytics.models.yolo import model
 
 # -- 1. Load Model --
-model_path = "/home/parichu/Ai/all_workspace/service_robot_ws2/fire_smoke_model_yolo11n.pt"
+model_path = "/home/parichu/AiForRobot/Ai_For_Robot/AI_Model/best.pt"
 
 # -- 1.1 Interrupt For Check Path --
 try:
